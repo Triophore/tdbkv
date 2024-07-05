@@ -1,0 +1,194 @@
+extern crate dotenv;
+use time::Duration;
+use tokio::*;
+
+
+
+use dotenv::{dotenv, var};
+use log::{debug, LevelFilter};
+use log::{error, info};
+use log4rs;
+use log4rs::append::rolling_file::policy::compound::CompoundPolicy;
+use log4rs::append::rolling_file::policy::compound::{
+    roll::fixed_window::FixedWindowRoller, trigger::size::SizeTrigger,
+};
+use log4rs::append::rolling_file::RollingFileAppender;
+use log4rs::config::{Appender, Logger, Root};
+use log4rs::Config;
+use log4rs::encode::pattern::PatternEncoder;
+use std::collections::HashMap;
+use std::io::Cursor;
+// use std::error::Error;
+use std::sync::Arc;
+use std::{env};
+use reqwest::{Client, Url};
+use serde_json::{from_str, Value};
+use urlencoding::encode;
+use chrono::Utc;
+use chrono::format::strftime::StrftimeItems;
+
+
+use tokio::net::{TcpListener, TcpStream};
+use tokio::io::{AsyncReadExt, AsyncWriteExt};
+
+use bb8::{Pool, RunError};
+
+use async_trait::async_trait;
+
+use anyhow::Error;
+
+use rmp_serde::{Deserializer, Serializer,from_read};
+use tokio::io::{ AsyncBufReadExt};
+
+use serde::{Deserialize, Serialize};
+
+use std::net::SocketAddr; 
+
+#[derive(Deserialize, Serialize, Debug )]
+struct ClientData {
+    client_name : String
+}
+
+
+
+#[tokio::main]
+async fn main() -> Result<(), Error> {
+    let log_line_pattern = "{d(%Y-%m-%d %H:%M:%S)} | {({l}):5.5} | {m}{n}";
+
+    let trigger_size = byte_unit::n_mb_bytes!(1) as u64;
+    let trigger = Box::new(SizeTrigger::new(trigger_size));
+
+    let roller_pattern = "logs/arch/log_{}.gz";
+    let roller_count = 5;
+    let roller_base = 1;
+    let roller = Box::new(
+        FixedWindowRoller::builder()
+            .base(roller_base)
+            .build(roller_pattern, roller_count)
+            .unwrap(),
+    );
+
+    let _compound_policy = Box::new(CompoundPolicy::new(trigger, roller));
+
+    let step_ap = RollingFileAppender::builder()
+        .encoder(Box::new(PatternEncoder::new(log_line_pattern)))
+        .build("logs/log/log.log", _compound_policy)
+        .unwrap();
+
+    //let stdout = ConsoleAppender::builder().build();
+
+    let config = Config::builder()
+        //.appender(Appender::builder().build("stdout", Box::new(stdout)))
+        .appender(Appender::builder().build("step_ap", Box::new(step_ap)))
+        .logger(
+            Logger::builder()
+                .appender("step_ap")
+                .build("step", LevelFilter::Trace),
+        )
+
+        .build(
+            Root::builder()
+                .appender("step_ap")
+                .build(LevelFilter::Trace),
+        )
+        .unwrap();
+
+    let _handle = log4rs::init_config(config).unwrap();
+
+
+    dotenv().ok();
+
+let logo = r#"
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    "#;
+
+    print!("{}", logo);
+    info!("{}",logo);
+    println!("{}","");
+    info!("");
+    println!("{}","Developed by Triophore Technologies");
+    info!("{}","Developed by Triophore Technologies");
+
+    
+
+    let server_host = env::var("TDBKV_HOST").unwrap_or("127.0.0.1".to_string());
+    let server_port = env::var("TDBKV_PORT").unwrap_or("6500".to_string());
+
+    let connection_pool = env::var("TDBKV_POOL_SIZE").unwrap_or("10".to_string());
+
+    let mut connection_pool_int : u32 = 10;
+
+    let connection_pool_int_res = connection_pool.parse::<u32>();
+
+    match connection_pool_int_res {
+        Ok(conn)=>{
+            if conn > 0 {
+                connection_pool_int = conn;
+            }else{
+                println!("{}","Error parsing connection pool count ,less than 1");
+                println!("{}","Using default pool count of 10"); 
+                error!("{}","Error parsing connection pool count ,less than 1");
+                error!("{}","Using default pool count of 10");
+            }
+        },
+        Err(_)=>{
+            println!("{}","Error parsing connection pool count");
+            println!("{}","Using default pool count of 10");
+            error!("{}","Error parsing connection pool count");
+            error!("{}","Using default pool count of 10");
+        }
+    }
+
+    let addr = format!("{}:{}", server_host, server_port).parse::<SocketAddr>().unwrap();
+   
+
+    let listener = TcpListener::bind(format!("{}:{}", server_host, server_port)).await?;
+    println!("TDBKV Server listening on {}:{}", server_host, server_port);
+    println!("TDBKV Server running with pool {}", connection_pool_int);
+    info!("TDBKV Server listening on {}:{}", server_host, server_port);
+    info!("TDBKV Server running with pool {}", connection_pool_int);
+
+    loop {
+        let (mut socket, _) = listener.accept().await?;
+        debug!("Got connection from client");
+        tokio::spawn(async move {
+            let (reader, mut writer) = socket.split();
+            let mut buf_reader = tokio::io::BufReader::new(reader);
+            let mut line = String::new();
+            while let Ok(_) = buf_reader.read_line(&mut line).await {
+                // if !line.is_empty() { 
+                    println!("{}",line.clone());
+                    for lin in line.split("\n").filter(|&line| !line.is_empty()) {
+
+                        // Create a Cursor for each split
+                        let mut cursor = Cursor::new(lin.as_bytes()); 
+
+                        println!("{}",lin);
+        
+                        // Deserialize using the Cursor
+                        let data: Result<ClientData, rmp_serde::decode::Error> = from_read(&mut cursor);
+                        
+                        match data {
+                            Ok(data) => {
+                                println!("Received and deserialized data: {:?}", data);
+                            }
+                            Err(e) => {
+                                eprintln!("Error deserializing MessagePack: {:?}", e);
+                                // Optionally: Send error response to the client
+                            }
+                        }
+        
+                    }
+                    line.clear(); 
+                // }
+            }
+        });
+    }
+}

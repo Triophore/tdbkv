@@ -1,0 +1,550 @@
+2024-07-05 20:45:33 | INFO  | 
+        88888888888 8888888b.  888888b.   888    d8P 888     888 
+            888     888  "Y88b 888  "88b  888   d8P  888     888 
+            888     888    888 888  .88P  888  d8P   888     888 
+            888     888    888 8888888K.  888d88K    Y88b   d88P 
+            888     888    888 888  "Y88b 8888888b    Y88b d88P  
+            888     888    888 888    888 888  Y88b    Y88o88P   
+            888     888  .d88P 888   d88P 888   Y88b    Y888P    
+            888     8888888P"  8888888P"  888    Y88b    Y8P     
+        
+2024-07-05 20:45:33 | INFO  | 
+2024-07-05 20:45:33 | INFO  | Developed by Triophore Technologies
+2024-07-05 20:45:33 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 20:45:33 | ERROR | Using default pool count of 10
+2024-07-05 20:45:33 | INFO  | TDBKV Server listnening on 127.0.0.1:1234
+2024-07-05 20:45:33 | INFO  | TDBKV Server running with pool 10
+2024-07-05 20:46:34 | INFO  | 
+        88888888888 8888888b.  888888b.   888    d8P 888     888 
+            888     888  "Y88b 888  "88b  888   d8P  888     888 
+            888     888    888 888  .88P  888  d8P   888     888 
+            888     888    888 8888888K.  888d88K    Y88b   d88P 
+            888     888    888 888  "Y88b 8888888b    Y88b d88P  
+            888     888    888 888    888 888  Y88b    Y88o88P   
+            888     888  .d88P 888   d88P 888   Y88b    Y888P    
+            888     8888888P"  8888888P"  888    Y88b    Y8P     
+        
+2024-07-05 20:46:34 | INFO  | 
+2024-07-05 20:46:34 | INFO  | Developed by Triophore Technologies
+2024-07-05 20:46:34 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 20:46:34 | ERROR | Using default pool count of 10
+2024-07-05 20:46:34 | INFO  | TDBKV Server listnening on 127.0.0.1:1234
+2024-07-05 20:46:34 | INFO  | TDBKV Server running with pool 10
+2024-07-05 20:47:51 | INFO  | 
+        88888888888 8888888b.  888888b.   888    d8P 888     888 
+            888     888  "Y88b 888  "88b  888   d8P  888     888 
+            888     888    888 888  .88P  888  d8P   888     888 
+            888     888    888 8888888K.  888d88K    Y88b   d88P 
+            888     888    888 888  "Y88b 8888888b    Y88b d88P  
+            888     888    888 888    888 888  Y88b    Y88o88P   
+            888     888  .d88P 888   d88P 888   Y88b    Y888P    
+            888     8888888P"  8888888P"  888    Y88b    Y8P     
+        
+2024-07-05 20:47:51 | INFO  | 
+2024-07-05 20:47:51 | INFO  | Developed by Triophore Technologies
+2024-07-05 20:47:51 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 20:47:51 | ERROR | Using default pool count of 10
+2024-07-05 20:47:51 | INFO  | TDBKV Server listnening on 127.0.0.1:1234
+2024-07-05 20:47:51 | INFO  | TDBKV Server running with pool 10
+2024-07-05 20:50:31 | ERROR | Failed to get connection from pool: TimedOut
+2024-07-05 20:58:46 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 20:58:46 | INFO  | 
+2024-07-05 20:58:46 | INFO  | Developed by Triophore Technologies
+2024-07-05 20:58:46 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 20:58:46 | ERROR | Using default pool count of 10
+2024-07-05 20:58:46 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 20:58:46 | INFO  | TDBKV Server running with pool 10
+2024-07-05 20:59:20 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 20:59:26 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:00:40 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:00:40 | INFO  | 
+2024-07-05 21:00:40 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:00:40 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:00:40 | ERROR | Using default pool count of 10
+2024-07-05 21:00:40 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:00:40 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:01:16 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:01:23 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:06:35 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:06:35 | INFO  | 
+2024-07-05 21:06:35 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:06:35 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:06:35 | ERROR | Using default pool count of 10
+2024-07-05 21:06:35 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:06:35 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:06:50 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:06:54 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:07:06 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:07:24 | ERROR | Error getting connection from pool: Timed out in bb8
+2024-07-05 21:15:21 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:15:21 | INFO  | 
+2024-07-05 21:15:21 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:15:21 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:15:21 | ERROR | Using default pool count of 10
+2024-07-05 21:15:21 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:15:21 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:21:42 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:21:42 | INFO  | 
+2024-07-05 21:21:42 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:21:42 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:21:42 | ERROR | Using default pool count of 10
+2024-07-05 21:21:42 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:21:42 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:21:52 | DEBUG | Got connection from client
+2024-07-05 21:23:48 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:23:48 | INFO  | 
+2024-07-05 21:23:48 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:23:48 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:23:48 | ERROR | Using default pool count of 10
+2024-07-05 21:23:48 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:23:48 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:23:58 | DEBUG | Got connection from client
+2024-07-05 21:25:05 | DEBUG | Got connection from client
+2024-07-05 21:26:51 | DEBUG | Got connection from client
+2024-07-05 21:27:06 | DEBUG | Got connection from client
+2024-07-05 21:28:31 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:28:31 | INFO  | 
+2024-07-05 21:28:31 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:28:31 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:28:31 | ERROR | Using default pool count of 10
+2024-07-05 21:28:31 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:28:31 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:28:34 | DEBUG | Got connection from client
+2024-07-05 21:31:20 | DEBUG | Got connection from client
+2024-07-05 21:45:17 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:45:17 | INFO  | 
+2024-07-05 21:45:17 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:45:17 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:45:17 | ERROR | Using default pool count of 10
+2024-07-05 21:45:17 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:45:17 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:45:20 | DEBUG | Got connection from client
+2024-07-05 21:48:38 | DEBUG | Got connection from client
+2024-07-05 21:48:47 | DEBUG | Got connection from client
+2024-07-05 21:48:55 | DEBUG | Got connection from client
+2024-07-05 21:50:20 | DEBUG | Got connection from client
+2024-07-05 21:53:06 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:53:06 | INFO  | 
+2024-07-05 21:53:06 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:53:06 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:53:06 | ERROR | Using default pool count of 10
+2024-07-05 21:53:06 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:53:06 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:53:11 | DEBUG | Got connection from client
+2024-07-05 21:54:58 | DEBUG | Got connection from client
+2024-07-05 21:57:48 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:57:48 | INFO  | 
+2024-07-05 21:57:48 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:57:48 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:57:48 | ERROR | Using default pool count of 10
+2024-07-05 21:57:48 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:57:48 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:58:14 | DEBUG | Got connection from client
+2024-07-05 21:58:26 | DEBUG | Got connection from client
+2024-07-05 21:59:49 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 21:59:49 | INFO  | 
+2024-07-05 21:59:49 | INFO  | Developed by Triophore Technologies
+2024-07-05 21:59:49 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 21:59:49 | ERROR | Using default pool count of 10
+2024-07-05 21:59:49 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 21:59:49 | INFO  | TDBKV Server running with pool 10
+2024-07-05 21:59:52 | DEBUG | Got connection from client
+2024-07-05 22:00:29 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:00:29 | INFO  | 
+2024-07-05 22:00:29 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:00:29 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:00:29 | ERROR | Using default pool count of 10
+2024-07-05 22:00:29 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:00:29 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:00:32 | DEBUG | Got connection from client
+2024-07-05 22:02:45 | DEBUG | Got connection from client
+2024-07-05 22:04:11 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:04:11 | INFO  | 
+2024-07-05 22:04:11 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:04:11 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:04:11 | ERROR | Using default pool count of 10
+2024-07-05 22:04:11 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:04:11 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:04:16 | DEBUG | Got connection from client
+2024-07-05 22:05:05 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:05:05 | INFO  | 
+2024-07-05 22:05:05 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:05:05 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:05:05 | ERROR | Using default pool count of 10
+2024-07-05 22:05:05 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:05:05 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:05:08 | DEBUG | Got connection from client
+2024-07-05 22:05:32 | DEBUG | Got connection from client
+2024-07-05 22:07:13 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:07:13 | INFO  | 
+2024-07-05 22:07:13 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:07:13 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:07:13 | ERROR | Using default pool count of 10
+2024-07-05 22:07:13 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:07:13 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:07:16 | DEBUG | Got connection from client
+2024-07-05 22:08:51 | DEBUG | Got connection from client
+2024-07-05 22:11:04 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:11:04 | INFO  | 
+2024-07-05 22:11:04 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:11:04 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:11:04 | ERROR | Using default pool count of 10
+2024-07-05 22:11:04 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:11:04 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:11:06 | DEBUG | Got connection from client
+2024-07-05 22:11:32 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:11:32 | INFO  | 
+2024-07-05 22:11:32 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:11:32 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:11:32 | ERROR | Using default pool count of 10
+2024-07-05 22:11:32 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:11:32 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:11:35 | DEBUG | Got connection from client
+2024-07-05 22:12:06 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:12:06 | INFO  | 
+2024-07-05 22:12:06 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:12:06 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:12:06 | ERROR | Using default pool count of 10
+2024-07-05 22:12:06 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:12:06 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:12:09 | DEBUG | Got connection from client
+2024-07-05 22:12:26 | DEBUG | Got connection from client
+2024-07-05 22:12:46 | DEBUG | Got connection from client
+2024-07-05 22:13:40 | DEBUG | Got connection from client
+2024-07-05 22:14:21 | DEBUG | Got connection from client
+2024-07-05 22:17:59 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:17:59 | INFO  | 
+2024-07-05 22:17:59 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:17:59 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:17:59 | ERROR | Using default pool count of 10
+2024-07-05 22:17:59 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:17:59 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:18:02 | DEBUG | Got connection from client
+2024-07-05 22:24:37 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:24:37 | INFO  | 
+2024-07-05 22:24:37 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:24:37 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:24:37 | ERROR | Using default pool count of 10
+2024-07-05 22:24:37 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:24:37 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:24:40 | DEBUG | Got connection from client
+2024-07-05 22:27:21 | DEBUG | Got connection from client
+2024-07-05 22:29:17 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:29:17 | INFO  | 
+2024-07-05 22:29:17 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:29:17 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:29:17 | ERROR | Using default pool count of 10
+2024-07-05 22:29:17 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:29:17 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:29:20 | DEBUG | Got connection from client
+2024-07-05 22:29:26 | DEBUG | Got connection from client
+2024-07-05 22:29:46 | DEBUG | Got connection from client
+2024-07-05 22:30:53 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:30:53 | INFO  | 
+2024-07-05 22:30:53 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:30:53 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:30:53 | ERROR | Using default pool count of 10
+2024-07-05 22:30:53 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:30:53 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:30:55 | DEBUG | Got connection from client
+2024-07-05 22:31:01 | DEBUG | Got connection from client
+2024-07-05 22:32:59 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:32:59 | INFO  | 
+2024-07-05 22:32:59 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:32:59 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:32:59 | ERROR | Using default pool count of 10
+2024-07-05 22:32:59 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:32:59 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:33:51 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:33:51 | INFO  | 
+2024-07-05 22:33:51 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:33:51 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:33:51 | ERROR | Using default pool count of 10
+2024-07-05 22:33:51 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:33:51 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:34:07 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:34:07 | INFO  | 
+2024-07-05 22:34:07 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:34:07 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:34:07 | ERROR | Using default pool count of 10
+2024-07-05 22:34:07 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:34:07 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:34:10 | DEBUG | Got connection from client
+2024-07-05 22:34:30 | DEBUG | Got connection from client
+2024-07-05 22:35:07 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:35:07 | INFO  | 
+2024-07-05 22:35:07 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:35:07 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:35:07 | ERROR | Using default pool count of 10
+2024-07-05 22:35:07 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:35:07 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:35:09 | DEBUG | Got connection from client
+2024-07-05 22:36:47 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:36:47 | INFO  | 
+2024-07-05 22:36:47 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:36:47 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:36:47 | ERROR | Using default pool count of 10
+2024-07-05 22:36:47 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:36:47 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:36:49 | DEBUG | Got connection from client
+2024-07-05 22:37:39 | INFO  | 
+    88888888888 8888888b.  888888b.   888    d8P 888     888 
+        888     888  "Y88b 888  "88b  888   d8P  888     888 
+        888     888    888 888  .88P  888  d8P   888     888 
+        888     888    888 8888888K.  888d88K    Y88b   d88P 
+        888     888    888 888  "Y88b 8888888b    Y88b d88P  
+        888     888    888 888    888 888  Y88b    Y88o88P   
+        888     888  .d88P 888   d88P 888   Y88b    Y888P    
+        888     8888888P"  8888888P"  888    Y88b    Y8P     
+    
+2024-07-05 22:37:39 | INFO  | 
+2024-07-05 22:37:39 | INFO  | Developed by Triophore Technologies
+2024-07-05 22:37:39 | ERROR | Error parsing connection pool count ,less than 1
+2024-07-05 22:37:39 | ERROR | Using default pool count of 10
+2024-07-05 22:37:39 | INFO  | TDBKV Server listening on 127.0.0.1:1234
+2024-07-05 22:37:39 | INFO  | TDBKV Server running with pool 10
+2024-07-05 22:37:42 | DEBUG | Got connection from client
+2024-07-05 22:38:23 | DEBUG | Got connection from client
